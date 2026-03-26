@@ -1,17 +1,13 @@
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(600, 600);
 }
 
 function draw() {
   background(20);
 
-  fill(255);
+  fill(0);
   circle(mouseX, mouseY, 40);
 }
-
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}  
 
 function keyPressed() {
   if (key === 's') {
